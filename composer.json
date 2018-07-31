@@ -1,0 +1,28 @@
+{
+    "name": "isupozoy/api-service",
+    "description": "A fast and secure api service.",
+    "keywords": [
+        "api",
+        "service",
+        "fast",
+        "secure"
+    ],
+    "license": "MIT"
+    "authors": [
+        {
+            "name": "Nicholas E.",
+            "homepage": "https://github.com/isupozoy",
+            "email": "isupozoy@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Isupozoy\\ApiService\\": "./src"
+        }
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "prefer-stable": true
+}
